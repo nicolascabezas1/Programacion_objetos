@@ -22,3 +22,16 @@ Teoria que suministra la base y modelo para resolver problemas
 2. abstraccion.
 3. herencia.
 4. polimorfismo.
+### Lenguajes POO
+1. jAVA
+2. PHP
+3. PYTHON
+4. KOTLIN
+#### JAVA
+orientado a objetos naturalmente, formalmente utilizado en desarrollo android.
+#### PHP
+Lenguaje interpretado, pensado para la web.
+#### PYTHON
+Diseñado para ser facil de usar ademas, de contar con multiples usos.
+#### JAVASCRIPT
+Lenguaje interpretado, basado en prototipos y pensado para la web.
