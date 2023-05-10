@@ -1,6 +1,7 @@
 class Main {
   public static void main(String[] args) {
-    Car car = new Car("HTM1290", new Account("Nicolas Cabezas", "1007521225"));
-    car.printDataCar();
+    Uberx uberx = new Uberx("ASLDLS123", new Account("Nicolas", "213212", "nicolas611230@gmail.com", "La buena vida"), "Ford", "Fiesta");
+    uberx.setPassenger(4);
+    uberx.printDataCar();
   }
 }

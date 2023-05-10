@@ -96,3 +96,17 @@ Se establece una jerarquia entre padres e hijos.
 
 ClasePadre = SuperClase
 ClaseHijo = SubClase
+
+# Encapsulamiento
+Los datos permanecen inalterables, se asignan modificadores de acceso.
+
+## Modificadores de Acceso
+1. public = acceso a todas las clases.
+2. protected = acceso a clases, paquetes y subclases.
+3. default = clases y paquetes.
+4. private = clases.
+
+# Polimorfismo
+muchas formas, metodos que se comparte en distintas clases y las clases otorgan los comortamientos individuales.
+
+contruir metodos con el mismo nombre pero con comportamiento diferente
