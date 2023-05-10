@@ -35,3 +35,64 @@ Lenguaje interpretado, pensado para la web.
 Diseñado para ser facil de usar ademas, de contar con multiples usos.
 #### JAVASCRIPT
 Lenguaje interpretado, basado en prototipos y pensado para la web.
+## Diagramas de modelado
+1. OMT = Object Modeling Techniques, metodologia analisis orientado a objetos
+2. UML = Unified Modeling Language, lenguaje de modelado unificado. clases, casos de uso, objetos etc.
+# Objetos
+Resolver problemas por medio de modelacion, identifica los objetos.
+
+Los objetos son aquellos que tienen propiedades y comportamientos.
+
+Pueden ser fisicos y conceptuales.
+
+#### Objeto user
+es un objeto fisico
+
+#### objeto conceptual
+session of user
+
+## Propiedades
+Tambien pueden llamarse atributos seran sustantivos (nombre, tamaño, forma, estado)
+
+## Comportamientos
+Acciones que puede realizar el objeto en verbos (login, makeReport)
+
+## Ejemplo
+OBJETO: Perro
+PROPIEDADES: nombre, color, raza
+COMPORTAMIENTOS: ladrar, comer, dormir
+
+OBJETO: Adopciones
+PROPIEDADES: id, nombre, color, raza
+COMPORTAMIENTOS: serAdoptado()
+
+# Clases
+Es el modelo por el cual los objetos seran construidos
+
+Las clases permiten generar mas objetos
+
+## Abstraccion
+Abastaremos los datos de un objeto para generar un molde
+
+# Modularidad
+Principios de la programacion orientada a objetos.
+
+Subdividir un sistema en partes pequeñas, que funcionan de manera independiente.
+
+Organizacion en modulos.
+
+# UML clases
+estructura
+1. identidad = nombre de la clase
+2. estado = atributos
+3. comportamiento = oprecaiones
+
+Person -> name -> walk()
+
+# Herencia
+Crear nuevas clases a partir de otras clases.
+
+Se establece una jerarquia entre padres e hijos.
+
+ClasePadre = SuperClase
+ClaseHijo = SubClase
